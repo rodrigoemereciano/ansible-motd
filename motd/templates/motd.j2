@@ -1,0 +1,20 @@
+
+░█████╗░███╗░░██╗░██████╗██╗██████╗░██╗░░░░░███████╗
+██╔══██╗████╗░██║██╔════╝██║██╔══██╗██║░░░░░██╔════╝
+███████║██╔██╗██║╚█████╗░██║██████╦╝██║░░░░░█████╗░░
+██╔══██║██║╚████║░╚═══██╗██║██╔══██╗██║░░░░░██╔══╝░░
+██║░░██║██║░╚███║██████╔╝██║██████╦╝███████╗███████╗
+╚═╝░░╚═╝╚═╝░░╚══╝╚═════╝░╚═╝╚═════╝░╚══════╝╚══════╝
+
+Ambiente de Desenvolvimento {{ansible_hostname}}
+
+Bem-vindo a {{ansible_hostname}}
+
+IP: {{ ansible_eth1.ipv4.address }}
+FQDN: {{ ansible_fqdn }}
+CPU: {{ ansible_processor_vcpus }}
+Memória RAM: {{ (ansible_memtotal_mb / 1000) | round(1) }}GB
+
+Este arquivo foi criado em {{ansible_date_time.date}}
+
+Entre em contato com {{system_manager}} se houver algo errado

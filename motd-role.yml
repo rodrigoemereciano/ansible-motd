@@ -1,0 +1,8 @@
+--- 
+- name: uso do motd role playbook
+  hosts: all
+  remote_user: vagrant
+  become: yes
+
+  roles:
+    - role: motd
