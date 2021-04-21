@@ -1,5 +1,4 @@
 ---
-# tasks file for motd
 # arquivo de tarefas para motd
 - name: copiar arquivo motd
   template:
