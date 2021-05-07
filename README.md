@@ -8,7 +8,7 @@ Ansible playbook criada para automatizar o /etc/motd de servidores linux.
 - Exibe uma mensagem personalizada ao realizar o acesso ao servidor.
 <br>
 <br>
-- Utilizo o template com jinga em templates/motd.j2:
+- Utilizo o template com jinja2 em templates/motd.j2:
 <br>
 <br>
 <img src=./motd.png>
