@@ -1,6 +1,6 @@
 # Playbook Ansible Motd
 
-<img src=./ansible.png width="200" heigth="100" style="vertical-align:middle;margin:0px 130px">
+<img src=./ansible.png width="200" heigth="100" style="vertical-align:middle;margin:0px 200px">
 <br>
 <br>
 Ansible playbook criada para automatizar o /etc/motd de servidores linux.
