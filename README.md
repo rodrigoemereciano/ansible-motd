@@ -11,5 +11,5 @@ Ansible playbook criada para automatizar o /etc/motd de servidores linux.
 - Utilizo o template com jinga em templates/motd.j2:
 <br>
 <br>
-![motd](./motd.png)
+<img src=./motd.png>
 
